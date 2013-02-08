@@ -1,11 +1,12 @@
 <?php
 
 /*
-Plugin Name: Memcached
-Description: Memcached backend for the WP Object Cache.
-Version: 2.0.2
-Plugin URI: http://wordpress.org/extend/plugins/memcached/
-Author: Ryan Boren, Denis de Bernardy, Matt Martz
+Plugin Name: Memcached (FORKED )
+Description: Forked Memcached backend for the WP Object Cache.
+Version: 2.0.2.001
+Plugin URI: https://github.com/jeremyfelt/Memcached-Object-Cache
+Forked From: http://wordpress.org/extend/plugins/memcached/
+Author: Ryan Boren, Denis de Bernardy, Matt Martz, Jeremy Felt
 
 Install this file to wp-content/object-cache.php
 */
