@@ -313,6 +313,7 @@ class WP_Object_Cache {
 
 	function switch_to_blog( $blog_id ) {
 		$blog_id = (int) $blog_id;
+		global $table_prefix;
 		$this->blog_prefix = ( is_multisite() ? $blog_id : $table_prefix ) . ':';
 	}
 
